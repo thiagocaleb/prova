@@ -1,0 +1,29 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+    span {
+        color:black;
+        top: 10px;
+    }
+
+    img {
+        height: 100%;
+        
+        filter: alpha(opacity=90);
+    }
+}
+
+ion-slides { 
+    height: 90%;
+    color:black;
+}
+
+ion-slide{
+    height: auto;
+    
+}

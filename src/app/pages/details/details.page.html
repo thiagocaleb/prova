@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-toolbar color="secondary">
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-menu side="start" menuId="first">
+        <ion-header>
+          <ion-toolbar color="primary">
+            <ion-title>Start Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-button (click)="logout()" routerLink="/login" routerDirection="root" color="secondary" expand="block" shape="round">
+              Sair
+            </ion-button>
+          <ion-list>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+            <ion-item>Menu Item</ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-menu>
+  
+      <ion-title>Galeria</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding">
+  
+      <ion-list>
+          <img src="/assets/img/img1.jfif">
+          <img src="/assets/img/img2.jfif">
+      </ion-list>
+  
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-button (click)="saveProduct()" expand="block" color="secondary">
+        Enviar MakeUp
+      </ion-button>
+    </ion-toolbar>
+  </ion-footer>

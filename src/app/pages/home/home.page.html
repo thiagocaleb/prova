@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-toolbar color="secondary">
+      <ion-title>WhatDoYouThink?</ion-title>
+      <ion-header>
+        <ion-toolbar>
+            <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+            </ion-buttons>
+          <ion-title>
+            Home
+          </ion-title>
+        </ion-toolbar>
+      </ion-header>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding">
+    
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/img/img1.jfif">
+      </ion-avatar>
+      <ion-label>Jessica, 20</ion-label>
+      <ion-chip>
+        <ion-avatar>
+          <img src="/assets/img/img2.jfif">
+        </ion-avatar>
+        <ion-label>que foto!</ion-label>
+      </ion-chip>
+    </ion-item>
+
+        
+  </ion-content>
+  
+  <ion-footer>
+    <ion-toolbar>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-button (click)="logout()" routerLink="/login" routerDirection="root" color="secondary" expand="block" shape="round">
+              Sair
+            </ion-button>
+          </ion-col>
+  
+          <ion-col size="6">
+            <ion-button routerLink="/details" expand="block" shape="round" color="secondary">
+              Galeria MakeUps
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-footer>

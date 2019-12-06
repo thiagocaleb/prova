@@ -1,0 +1,48 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    z-index: 2;
+
+    &.top { 
+        top: 8%;
+
+    }
+
+    &.bottom {
+        bottom: 10%;
+
+        span {
+            color: var(--ion-color-dark);
+            
+        }
+    }
+}
+
+ion-slide { background-color:rgb(0, 255, 234) }
+
+ion-label { color: var(--ion-color-dark); }
+
+ion-slides {
+    height: 100%;
+
+    .slide-inner {
+        width: 70%;
+        color: var(--ion-color-primary-contrast);
+        background-color: rgba(0, 0, 2, 0.5);
+        border-radius: 20px;
+
+        ion-item {
+            --background: rgba(0.2, 0.2, 0.2, 0.6);
+            --border-radius: 15px;
+
+            ion-input {
+                --color: var(--ion-color-primary-contrast);
+            }
+        }
+
+    }
+}

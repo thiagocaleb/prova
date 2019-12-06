@@ -1,0 +1,7 @@
+{
+  "name": "MoviesOnlineApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
